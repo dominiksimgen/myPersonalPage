@@ -60,10 +60,10 @@ h1 {
 
 
 .mountain {
-    position: relative;
-    top: 7px;
-    width: auto;
-        
+    position: absolute;
+    top: 60%;
+    width: 60%;
+    right: 20%;    
 }
 
 .portrait {
@@ -86,7 +86,7 @@ h1 {
 .textportrait {
     position: relative;
     color: var(--color1);
-    width: 800px;
+    width: 50%;
     margin: 0 auto 0 auto;
     font-size: 180%;
     font-family: "helvetica", sans-serif;
