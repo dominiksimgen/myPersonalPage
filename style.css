@@ -62,6 +62,7 @@ h1 {
 .mountain {
     position: relative;
     top: 7px;
+    width: auto;
         
 }
 
