@@ -8,30 +8,124 @@
 body {
     margin: 0px;
     color: var(--color4);
-    font-family: Helvetica;
-    background-color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: white;
+    text-align: center;
+    
     
 }
 
 h1 {
-    margin: 0px;
+    width: 260px;
+    padding-top: 200px;
+    margin: 0 auto 0 auto; /*required to center text,
+    as width is applied to a normally full-line block element*/
+    font-size: 300%;
 }
 
 .top-container {
     background-color: var(--color1);
     width: 100%;
-    height: 200px;
+    height: 750px;
+    position: relative;
+    
+    
 }
 
 .middle-container {
     background-color: var(--color2);
     width: 100%;
-    height: 300px;
+    height: 1500px;
 }
 
 .bottom-container {
     background-color: var(--color3);
     width: 100%;
     height: 300px;
+}
+
+
+.top-cloud {
+    position: absolute;
+    top: 70px;
+    right: 20%;
+    transform: scaleX(-1); /*"-1" flips image horizontally*/
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 15%;
+    transform: scaleX(1); /*"-1" flips image horizontally*/
+}
+
+
+.mountain {
+    position: relative;
+    top: 7px;
+        
+}
+
+.portrait {
+    position: relative;
+    top: 120px;
+    border-radius: 1000px;
+    width: 200px;
+    filter: saturate(140%) contrast(110%);
+}
+
+.helloportrait {
+    position: relative;
+    font-size: 500%;
+    font-family: "helvetica", sans-serif;
+    font-weight: lighter;
+    top: 100px;
+    left: 10px;
+}
+
+.textportrait {
+    position: relative;
+    color: var(--color1);
+    width: 800px;
+    margin: 0 auto 0 auto;
+    font-size: 180%;
+    font-family: "helvetica", sans-serif;
+    font-weight: 0;
+    top: 80px;
+    left: 5px;
+}
+
+
+.supply {
+    position: relative;
+    width: 200px;
+    border-radius: 1000px;
+    top: 170px;
+    right: 250px;
+    transform: scaleX(1); /*"-1" flips image horizontally*/
+    filter: saturate(70%);
+}
+
+.laptop {
+    position: relative;
+    width: 200px;
+    border-radius: 1000px;
+    top: 170px;
+    right: 200px;
+    transform: scaleX(-1); /*"-1" flips image horizontally*/
+    filter: saturate(100%);
+}
+
+.camera {
+    position: relative;
+    width: 200px;
+    border-radius: 1000px;
+    top: 170px;
+    left: 500px;
+    transform: scaleX(-1); /*"-1" flips image horizontally*/
+    filter: saturate(50%);
+}
+
+a {
+    color: var(--color1);
 }
 
