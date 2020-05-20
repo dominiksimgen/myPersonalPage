@@ -25,7 +25,7 @@ h1 {
 
 .top-container {
     background-color: var(--color1);
-    height: 750px;
+    height: 741px;
     position: relative;
     
     
@@ -61,9 +61,10 @@ h1 {
 
 .mountains {
     position: relative;
-    bottom: 100px;
-    width: 60%;
-    right: 20%;    
+    bottom: 0px;
+    width: 600px;
+    right: 0%;
+    ;  
 }
 
 .portrait {
