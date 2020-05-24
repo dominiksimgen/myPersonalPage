@@ -142,6 +142,7 @@ h1 {
     filter: saturate(70%);
     float: left;
     margin-right: 30px;
+    clear: left;
 }
 
 .insta {
